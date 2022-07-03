@@ -1,4 +1,9 @@
 #include <stdio.h>
+
+/**
+ * main - Entry point
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
 	int n;
@@ -7,6 +12,6 @@ int main(void)
 	{
 		printf("%d", n);
 	}
-	printf("\n");	
+	printf("\n");
 	return (0);
 }
