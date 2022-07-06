@@ -1,12 +1,12 @@
 #include "main.h"
-
 /**
- * int add - function adds two intergers
- * Return: return the resul of the sum
+ * add - a function that adds two numbers
+ * @a : arguments1
+ * @b : argument1
+ * Return: a + b
  */
-int add(int, int);
-int main(void)
+int add(int a, int b)
 {
-	add();
-	return(int,int)
+	return (a + b);
 }
+
