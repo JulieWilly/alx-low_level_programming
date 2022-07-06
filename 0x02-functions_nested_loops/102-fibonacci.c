@@ -7,7 +7,8 @@
  */
 int main(void)
 {
-	long int a, b, c, next;
+	long int a, b, c, fib;
+
 	b = 1;
 	c = 2;
 
@@ -21,9 +22,9 @@ int main(void)
 		{
 			printf("%ld\n", b);
 		}
-		next = b + c;
+		fib = b + c;
 		b = c;
-		c = next;
+		c = fib;
 	}
 	return (0);
 }
