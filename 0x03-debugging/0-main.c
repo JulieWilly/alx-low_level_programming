@@ -1,7 +1,7 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-
+#include "main.h"
 /**
  * positive_or_negative - checks whether a numbr is postive or negative
  * @i: integer parameter
