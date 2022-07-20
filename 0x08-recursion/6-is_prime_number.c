@@ -26,5 +26,5 @@ int findPrime(int n, int i)
 		return (0);
 	if ((n / i) < i)
 		return (1);
-	return (fidPrime(n, i + 1));
+	return (findPrime(n, i + 1));
 }
