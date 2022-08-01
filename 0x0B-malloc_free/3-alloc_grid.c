@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * alloc-grid - function that allocates a two dimensional array
+ * alloc_grid - function that allocates a two dimensional array
  * @width: width of the array.
  * @height: height of thwe array.
  * Return: a pointer allocated to the array.
