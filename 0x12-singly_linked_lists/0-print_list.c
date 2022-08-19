@@ -4,7 +4,6 @@
 /**
  * print_list - prints the elements of a sigly linked list.
  * @h: is the pointer to the list_t list will point.
- * 
  * Return: Number of nodes.
  */
 size_t print_list(const list_t *h)
