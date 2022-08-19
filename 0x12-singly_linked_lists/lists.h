@@ -1,7 +1,7 @@
 #ifndef LISTS_T
 #define LISTS_T
-//#include <stdlib.h>
-//#include <string.h>
+#include <stdlib.h>
+#include <string.h>
 
 
 /**
