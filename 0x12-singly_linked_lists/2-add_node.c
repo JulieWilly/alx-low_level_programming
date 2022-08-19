@@ -11,7 +11,7 @@
 
 list_t *add_node(list_t **head, const char *str)
 {
-	list *newNode;
+	list_t *newNode;
 	unsigned int len = 0;
 
 	/* check the legth of the string*/
