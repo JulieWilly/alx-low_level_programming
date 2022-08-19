@@ -6,7 +6,7 @@
  * @h: pameter string
  */
 
-size_t list_len(const list_t *h);
+size_t list_len(const list_t *h)
 {
 	/* initialize a temporal pointer that will navigate through the list*/
 	const list_t *nodeNext;
