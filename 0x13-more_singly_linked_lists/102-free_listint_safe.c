@@ -3,7 +3,11 @@
 #include <stdio.h>
 
 /**
- *
+ * _ra - function that reallocates memory for an array
+ * @size: size of the new list
+ * @list: the old linked list
+ * @new: New node to be added to the list
+ * Return: the pointer to the new list
  */
 listint_t **_ra(listint_t **list, size_t size, listint_t *new)
 {
