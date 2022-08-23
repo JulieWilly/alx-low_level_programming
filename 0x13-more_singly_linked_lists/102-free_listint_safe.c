@@ -29,11 +29,11 @@ listint_t **_ra(listint_t **list, size_t size, listint_t *new)
 
 /**
  * free_listint_safe - function that frees listint linked list
- * @h: double pointer
+ * @head: double pointer
  * Return: returns the size of the list that was free'd
  */
 
-size_t free_listint_safe(listint_t **h)
+size_t free_listint_safe(listint_t **head)
 {
 	size_t i, num = 0;
 	listint_t **list = NULL;
