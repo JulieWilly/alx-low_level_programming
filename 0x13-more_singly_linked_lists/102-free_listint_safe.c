@@ -3,7 +3,11 @@
 #include <stdio.h>
 
 /**
- *
+ * _ra - function that reallocates memory for an array
+ * @size: size of the new list
+ * @list: the old linked list
+ * @new: New node to be added to the list
+ * Return: the pointer to the new list
  */
 listint_t **_ra(listint_t **list, size_t size, listint_t *new)
 {
@@ -25,18 +29,18 @@ listint_t **_ra(listint_t **list, size_t size, listint_t *new)
 
 /**
  * free_listint_safe - function that frees listint linked list
- * @h: double pointer
+ * @head: double pointer
  * Return: returns the size of the list that was free'd
  */
 
-size_t free_listint_safe(listint_t **h)
+size_t free_listint_safe(listint_t **head)
 {
 	size_t i, num = 0;
 	listint_t **list = NULL;
 	listint_t *next;
 
-	if (head == NULL)
-		return (NULL);
+	if (head == NULL || *head == NULL)
+		return (num);
 	while (*head != NULL)
 	{
 		for (i = 0; i < num; i++)
